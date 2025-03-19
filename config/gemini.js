@@ -1,7 +1,7 @@
 import { GoogleGenerativeAI } from "@google/generative-ai"
 
 //const apiKey = process.env.GEMINI_API_KEY;  // Use env variable
-const genAI = new GoogleGenerativeAI("AIzaSyBDZTBIAtwCMwAsJs20Tf6RycsVSzNNf74");
+const genAI = new GoogleGenerativeAI(GEMINI_API_KEY);
 
 const model = genAI.getGenerativeModel({
   model: "gemini-2.0-flash-thinking-exp-01-21",
